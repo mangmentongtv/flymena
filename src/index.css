@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/************************************ OVERRIDE STYLES *******************************************/
+.imgBg {
+  background-image: url(./assets/img/image2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 50px
+}
+
+.base-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px
+}
+
+.logo-txt {
+  color: #3498db
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  height: 430px;
+  text-align: center;
+  padding: 20px
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 100%;
+  background-color: #3498db;
+  padding: 10px
+}
+
+.imgWrapper {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 150px;
+  width: 180px;
+  border-radius: 5px
+}
